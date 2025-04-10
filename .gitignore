@@ -1,0 +1,37 @@
+# === Fichiers système ===
+.DS_Store
+Thumbs.db
+*.log
+
+# === Dossiers et fichiers spécifiques à Python ===
+__pycache__/
+*.py[cod]
+*.swp
+.env
+.venv_cours_scoring/
+
+# === Fichiers Jupyter Notebook checkpoints ===
+.ipynb_checkpoints/
+
+# === Données brutes et temporaires ===
+*.json
+*.xlsx
+*.db
+# *.parquet
+# *.csv
+
+# === Modèles et résultats ===
+models/
+*.h5
+*.pkl
+*.joblib
+
+# === Logs et rapports ===
+logs/
+
+# # === Archive ===
+# notebooks/archive/
+
+# === Fichiers spécifiques à VSCode ===
+.vscode/
+*.code-workspace
